@@ -20,7 +20,7 @@ class OrderParameter
      * 摘要加签过
      * @var string
      */
-    private $SignMsg;
+    private $signMsg;
 
     /**
      * 协议参数
@@ -122,22 +122,20 @@ class OrderParameter
         $this->payment = $payment;
     }
 
-    private $signMsg;
-
     /**
      * @return string
      */
     public function getSignMsg()
     {
-        return $this->SignMsg;
+        return $this->signMsg;
     }
 
     /**
      * @param string $SignMsg
      */
-    public function setSignMsg($SignMsg)
+    public function setSignMsg($signMsg)
     {
-        $this->SignMsg = $SignMsg;
+        $this->signMsg = $signMsg;
     }
 
     /**

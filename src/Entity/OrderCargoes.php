@@ -57,7 +57,7 @@ class OrderCargoes
      * 商品描述
      * @var string
      */
-    public $itemDescribe;
+    public $itemDescribe = '';
 
     /**
      * 商品条码

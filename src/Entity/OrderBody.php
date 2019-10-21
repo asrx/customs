@@ -178,13 +178,13 @@ class OrderBody
      * 扩展字段
      * @var string
      */
-    public $Spt;
+    public $Spt = '';
 
     /**
      * 平台编号
      * @var string
      */
-    public $crossOrderId;
+    public $crossOrderId = '';
 
     /**
      * 商城平台编号

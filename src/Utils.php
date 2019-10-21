@@ -15,7 +15,7 @@ class Utils
      * @param int $d
      * @return float
      */
-    public static function keepDecimal(float $num, $d = 5) : float
+    public static function keepDecimal(float $num = 0, $d = 5) : float
     {
         return number_format($num, $d, '.','');
     }
