@@ -1,0 +1,19 @@
+{
+    "name": "asrx/customs",
+    "description": "zh_CN Customs API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Donovan.Xu",
+            "email": "d.east6@gmail.com"
+        }
+    ],
+    "require": {
+        "php-curl-class/php-curl-class": "^8.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asrx\\Customs\\": "src"
+        }
+    }
+}
